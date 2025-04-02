@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Al Qudra Route</title>
+    <title>Al Qudra Cycling Route</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        width: 100%;
+        height: 80vh; /* 80% of screen height */
+      }
+    </style>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEjEDm6_Xh9bjLa2eHfhJDqtTkWnOz_sM"></script>
     <script>
       function initMap() {
         const map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: 24.908, lng: 55.370 }, // Adjusted to better fit Al Qudra
-  	zoom: 11, // Try values between 11–14 depending on how close you want
+          center: { lat: 24.908, lng: 55.370 },
+          zoom: 12,
         });
 
         const kmlLayer = new google.maps.KmlLayer({
@@ -18,6 +30,6 @@
     </script>
   </head>
   <body onload="initMap()">
-    <div id="map" style="height: 500px; width: 100%;"></div>
+    <div id="map"></div>
   </body>
 </html>
