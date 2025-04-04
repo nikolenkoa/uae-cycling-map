@@ -152,11 +152,10 @@
     </StyleMap>
     <Placemark>
       <name>Hudariyat Island Parking</name>
-      <visibility>1</visibility>
-      <styleUrl>#icon-1644-0288D1-nodesc</styleUrl>
+      <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
       <Point>
         <coordinates>
-          24.417751,54.346757,0
+          54.3455508,24.4175873,0
         </coordinates>
       </Point>
     </Placemark>
