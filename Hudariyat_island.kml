@@ -109,6 +109,15 @@
       </Pair>
     </StyleMap>
     <Placemark>
+      <name>Hudariyat Island Parking</name>
+      <styleUrl>#icon-1644-0288D1-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          54.3467574,24.4177505,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
       <name>Hudariyat island main loop 11km</name>
       <styleUrl>#poly-000000-1200-77-nodesc</styleUrl>
       <Polygon>
@@ -416,15 +425,6 @@
           54.3429415,24.4225229,0
         </coordinates>
       </LineString>
-    </Placemark>
-    <Placemark>
-      <name>Hudariyat Island Parking</name>
-      <styleUrl>#icon-1644-0288D1-nodesc</styleUrl>
-      <Point>
-        <coordinates>
-          54.3467574,24.4177505,0
-        </coordinates>
-      </Point>
     </Placemark>
   </Document>
 </kml>
